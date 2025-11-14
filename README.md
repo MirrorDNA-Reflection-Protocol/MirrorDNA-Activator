@@ -1,2 +1,2 @@
 # MirrorDNA-Activator
-MirrorDNA-Activat
+MirrorDNA-Activator
