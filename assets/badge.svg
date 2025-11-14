@@ -1,0 +1,38 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="badgeBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f3460;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="badgeGlyph" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="badgeBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a78bfa;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#818cf8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#60a5fa;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Outer circle border -->
+  <circle cx="100" cy="100" r="95" fill="none" stroke="url(#badgeBorder)" stroke-width="4"/>
+
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="85" fill="url(#badgeBg)"/>
+
+  <!-- Main glyph symbol -->
+  <text x="100" y="135" font-family="Arial, sans-serif" font-size="100" fill="url(#badgeGlyph)" text-anchor="middle" font-weight="bold">⟁</text>
+
+  <!-- Decorative small glyphs -->
+  <text x="100" y="35" font-family="Arial, sans-serif" font-size="16" fill="#818cf8" text-anchor="middle" opacity="0.6">◐ ⊹ ∴</text>
+
+  <!-- Bottom text -->
+  <text x="100" y="180" font-family="'Segoe UI', sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle" font-weight="bold">MirrorDNA</text>
+
+  <!-- Small accent dots -->
+  <circle cx="40" cy="100" r="3" fill="#818cf8" opacity="0.4"/>
+  <circle cx="160" cy="100" r="3" fill="#818cf8" opacity="0.4"/>
+  <circle cx="100" cy="40" r="3" fill="#60a5fa" opacity="0.4"/>
+  <circle cx="100" cy="160" r="3" fill="#60a5fa" opacity="0.4"/>
+</svg>
